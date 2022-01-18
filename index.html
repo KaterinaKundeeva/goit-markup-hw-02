@@ -7,30 +7,37 @@
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css">
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <header>
-            <a class="logo" href="/"><span class="accent">Web</span>Studio</a>
-            <nav class="site-nav-list">
-                <ul>
-                    <li><a href="" class="link current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li><a href="" class="link">Контакты</a></li>
-                </ul>
-            </nav>
+        
+            <header>
+                    <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+                    <nav class="site-nav-list">
+                        <ul>
+                            <li><a href="" class="link current">Студия</a></li>
+                            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                            <li><a href="" class="link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                
+                    <ul class="header-contacts">
+                        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+            </header>
+        
+    
 
-            <ul class="header-contacts">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </header>
+
+    <main>
 
         <!--Герой -->
         <div class="hero">
             <section class="hero-section">
                 <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="hero-button">Заказать услугу</button>
+                <button class="hero-button" type="button">Заказать услугу</button>
             </section>
         </div>
 
@@ -74,33 +81,36 @@
                 <li>
                     <img src="./images/card1.jpg" alt="мужчина с темными волосами, с бородой и в очках, в бордовой рубашке" width="270">
                     <h3 class="team-name">Игорь Демьяненко</h3>
-                    <h4 lang="en" class="team-position">Product Designer</h4>
+                    <p lang="en" class="team-position">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/card2.jpg" alt="женщина со светлыми влосами, в очках, и в черном пиджаке" width="270">
                     <h3 class="team-name">Ольга Репина</h3>
-                    <h4 lang="en" class="team-position">Frontend Developer</h4>
+                    <p lang="en" class="team-position">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/card3.jpg" alt="мужчина, шатен, в белой рубашке" width="270">
                     <h3 class="team-name">Николай Тарасов</h3>
-                    <h4 lang="en" class="team-position">Marketing</h4>
+                    <p lang="en" class="team-position">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/card4.jpg" alt="мужчина, брюнет с бородой, в очках, и в черной футболке" width="270">
                     <h3 class="team-name">Михаил Ермаков</h3>
-                    <h4 lang="en" class="team-position">UI Designer</h4>
+                    <p lang="en" class="team-position">UI Designer</p>
                 </li>
             </ul>
         </section>
+    </main>
 
         <!--Подвал-->
         <footer class="footer">
-            <p class="logo-footer"><span class="accent">Web</span>Studio</p>
+            <a class="logo-footer" href="./index.html"><span class="accent">Web</span>Studio</a>
             <address class="footer-contacts">
-                <span class="footer-contacts-address">г. Киев, пр-т Леси Украинки, 26</span> <br />
-                info@example.com <br />
-                +38 099 111 11 11
+                <ul>
+                    <li><a class="footer-contacts-address" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a class="footer-contacts" href="mailto:info@devstudio.com">info@example.com</a></li>
+                    <li><a class="footer-contacts" href="tel:+380961111111">+38 099 111 11 11</a></li>
+                </ul>
             </address>
         </footer>
 

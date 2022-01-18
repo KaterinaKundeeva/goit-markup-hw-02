@@ -1,4 +1,5 @@
 
+
 :root {
     --accent-color: #2196F3;
     --main-text-color: #212121;
@@ -92,7 +93,7 @@ header {
     font-size: 16px;
     line-height: 1.86;
     align-items: center;
-    text-align: center;                                                                                     
+    text-align: center;                                                                                    
 }
 
 h2 {
@@ -142,6 +143,7 @@ h2 {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 .footer {
     background-color: var(--secondary-background-color);
@@ -155,15 +157,22 @@ address {
 
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-contacts-address {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 /*Стили для portfolio.css*/
 
 /*Фильтр*/
+
+button {
+    cursor: pointer
+}
+
 .portfolio-filter {
     color: var(--main-text-color);
     background-color: var(--third-background-color);
